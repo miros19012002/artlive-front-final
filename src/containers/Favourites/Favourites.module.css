@@ -1,0 +1,24 @@
+.favouritesContainer {
+  max-width: 1050px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.favouritesContainer h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 115%;
+  color: #001732;
+  margin: 10px 0 30px;
+}
+
+.favouritesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+
+

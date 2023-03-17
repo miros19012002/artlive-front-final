@@ -1,0 +1,21 @@
+.orderContainer {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.orderContainer h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  color: #001732;
+  margin: 10px 0 30px;
+}
+
+.orderGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  box-sizing: border-box;
+}

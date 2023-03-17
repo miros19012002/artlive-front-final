@@ -1,0 +1,156 @@
+/* header {
+  box-sizing: border-box;
+} */
+
+.headerContainer {
+  padding: 30px 0;
+  /* height: 113px; */
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.menu {
+  margin: 0 40px 4px 0;
+  width: 35%;
+}
+
+.list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.items:hover {
+  color: #AC4C58
+   !important;
+}
+
+.items {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.3s;
+}
+
+.catalog {
+  position: relative;
+}
+
+.catalog::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  right: -15px;
+  border: 5px solid transparent;
+  border-top: 6px solid #AC4C58;
+}
+
+.blue {
+  color: #AC4C58;
+}
+
+.white {
+  color: #fff;
+}
+
+.profile {
+  margin: 0 0 0 45px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.profileList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.profileLink path {
+  transition: 0.3s;
+}
+
+.profileLink:hover svg path {
+  fill: #AC4C58;
+}
+
+.profileItems:last-of-type {
+  margin-left: 30px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.account {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.nickname {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.nickname:hover {
+  color: #AC4C58;
+}
+
+.account svg:first-of-type {
+  margin-left: 18px;
+}
+.account svg:last-of-type {
+  margin-left: 15px;
+}
+
+.account svg {
+  cursor: pointer;
+  /* ne rab */
+}
+
+.account svg path {
+  transition: 0.3s;
+}
+
+.account svg:first-of-type:hover path {
+  fill: #AC4C58;
+}
+
+.account svg:last-of-type:hover path {
+  stroke: #AC4C58;
+  fill: #AC4C58;
+}
+
+.blueSvgFirst {
+  fill: #AC4C58;
+}
+
+.whiteSvgFirst {
+  fill: #fff;
+}
+
+.blueSvgSec {
+  stroke: #AC4C58;
+  fill: #AC4C58;
+}
+
+.whiteSvgSec {
+  stroke: #ffffff;
+  fill: #fff;
+}

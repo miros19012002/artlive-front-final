@@ -1,0 +1,131 @@
+h3 {
+  margin: 0;
+}
+
+.cardMiniContainer {
+  margin: 0 auto;
+  padding: 36px 32px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #93b8d9;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  /* flex-direction: column; */
+  box-sizing: border-box;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.right {
+  cursor: pointer;
+}
+.right img {
+  max-width: 124px;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.left h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.left span {
+  text-overflow: ellipsis;
+  width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #959595;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0 0 0;
+}
+
+.about p {
+  text-align: center;
+  width: 70px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #505050;
+  border: 1px solid #d0d0d0;
+  border-radius: 100px;
+  margin-bottom: 0;
+}
+
+.about h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 0;
+}
+
+.status p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #001732;
+  margin-bottom: 0;
+}
+
+.status p:first-of-type {
+  margin-bottom: 10px;
+}
+
+/* span {
+  color: #959595;
+} */
+
+.quantity {
+  text-align: center;
+  width: 70px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #505050;
+  border: 1px solid #d0d0d0;
+  border-radius: 100px;
+  margin-bottom: 0;
+}

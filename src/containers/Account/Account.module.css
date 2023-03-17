@@ -1,0 +1,58 @@
+.accountContainer {
+  max-width: 1050px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.accountContainer h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  color: #001732;
+  margin: 10px 0 30px;
+}
+
+.blocks {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleBtn {
+  height: 130px !important;
+  cursor: pointer;
+  outline: none;
+  width: 330px;
+  border-radius: 19px;
+  padding: 20px 20px;
+  background: #ffffff;
+  border: 1px solid #93b8d9;
+  color: #001732;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+/* .titleBtnBlue {
+} */
+
+.titleBtn:focus {
+  border: none;
+  background: #136eef;
+  color: #ffffff;
+}
+
+.titleBtn p {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 35px;
+  line-height: 45px !important;
+  font-weight: 400;
+}
+
+.titleBtn:focus p {
+  font-weight: 600;
+}

@@ -1,0 +1,61 @@
+.admin > img {
+  display: block;
+  max-width: 940px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.adminContainer {
+  max-width: 1050px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  /* background: url(../../assets/images/admin/admin_back.png) no-repeat; */
+}
+
+.adminHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.adminHeader svg {
+  cursor: pointer;
+  /* ne rab */
+}
+
+.nickSvg path {
+  transition: 0.3s;
+}
+.nickSvg:last-of-type:hover path {
+  stroke: #136eef;
+  fill: #136eef;
+}
+
+.blueSvgSec {
+  stroke: #001732;
+  fill: #001732;
+}
+
+.adminContainer h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  color: #001732;
+  align-self: flex-start;
+  margin: 10px 0 30px;
+}
+
+.adminGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,29 @@
+.empty__container {
+  width: 100%;
+  margin: 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty {
+  max-width: 432px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.empty span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  color: #AC4C58;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}

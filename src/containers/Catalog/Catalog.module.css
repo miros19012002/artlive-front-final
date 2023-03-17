@@ -1,0 +1,70 @@
+.catalogContainer {
+  max-width: 1050px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.catalogContainer h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  margin: 10px 0 30px;
+  color: #AC4C58;
+}
+
+.form {
+  /* width: 260px !important; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formItem {
+  margin-bottom: 0 !important;
+}
+
+.catalogForm {
+  margin-bottom: 20px;
+}
+
+.select {
+  width: 260px !important;
+}
+
+.modalInput {
+  background: #ffffff;
+  border: 1px solid #BE9C84
+  ;
+  border-radius: 100px !important;
+  height: 48px;
+  width: 260px !important;
+}
+
+.select div {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #BE9C84
+  ;
+  border-radius: 100px !important;
+  height: 48px !important;
+}
+
+.select div span {
+  /* font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px; */
+
+  color: #AC4C58;
+}
+
+.catalogGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 30px;
+}

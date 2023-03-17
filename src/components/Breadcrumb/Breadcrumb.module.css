@@ -1,0 +1,16 @@
+/* .breadcrumb {
+  margin-bottom: 10px;
+} */
+
+.breadcrumbItem a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #AC4C58;
+}
+
+.breadcrumb li:last-child a {
+  color: #BE9C84 !important;
+}

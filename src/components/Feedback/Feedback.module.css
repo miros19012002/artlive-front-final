@@ -1,0 +1,47 @@
+.card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px 37px;
+  border: 2px solid #abceee;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nickname {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #AC4C58;
+  margin-bottom: 0;
+}
+
+.date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #AC4C58;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.feedbackText {
+  width: 300px;
+  word-wrap: break-word;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #AC4C58;
+  margin-bottom: 0;
+}

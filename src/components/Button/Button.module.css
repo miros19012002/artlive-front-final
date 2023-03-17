@@ -1,0 +1,82 @@
+.btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 100px;
+  outline: none;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+/* .btn:hover {
+  box-shadow: 0px 4px 15px rgba(6, 77, 141, 0.3);
+} */
+.reg:hover {
+  box-shadow: 0px 4px 15px rgba(219, 84, 150, 0.3);
+}
+
+.auth:hover {
+  border: 1px solid #AC4C58;
+  color: #AC4C58;
+  box-shadow: none;
+}
+
+footer .auth:hover {
+  color: #BE9C84;
+  border: 1px solid #BE9C84;
+}
+
+footer .auth {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 100px;
+  outline: none;
+  text-align: center;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.auth {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #BE9C84;
+  background: #ffffff;
+  border: 1px solid #BE9C84;
+  border-radius: 100px;
+}
+
+.reg {
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #AC4C58;
+  border-radius: 100px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn svg {
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.buy .btn {
+  font-size: 50px;
+}
+
+.basket {
+  margin-bottom: 0px !important;
+}

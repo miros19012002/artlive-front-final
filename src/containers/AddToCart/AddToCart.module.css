@@ -1,0 +1,39 @@
+.cartContainer {
+  max-width: 1050px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.cartContainer h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  color: #001732;
+  margin: 10px 0 30px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.create p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #001732;
+  margin: 30px 0;
+}
+
+.create span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  color: #001732;
+  margin-left: 30px;
+}

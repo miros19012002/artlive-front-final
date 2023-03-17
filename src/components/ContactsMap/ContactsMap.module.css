@@ -1,0 +1,15 @@
+div {
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  color: #eee;
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+}
+
+iframe {
+  position: relative;
+}
